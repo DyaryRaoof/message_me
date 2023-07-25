@@ -13,3 +13,27 @@
  *= require_tree .
  *= require_self
  */
+
+.home-page-icon-container {
+    border-radius: 100%;
+    width: 100px;
+    height: 100px;
+    background-color: lightgray;
+}
+
+.home-page-icon-inner-container {
+    border-radius: 100%;
+    width: 90px;
+    height: 90px;
+    background-color: white;
+}
+
+.message-box {
+    height: 70vh;
+    overflow: auto;
+}
+
+.chat-form {
+    position: relative;
+    top: 92%;
+}
