@@ -30,10 +30,20 @@
 
 .message-box {
     height: 70vh;
-    overflow: auto;
+    overflow: scroll;
 }
 
-.chat-form {
-    position: relative;
-    top: 92%;
+.divider:after,
+.divider:before {
+    content: "";
+    flex: 1;
+    height: 1px;
+    background: #eee;
+}
+
+.main-message-form {
+    position: sticky;
+    bottom: 10px;
+    /* Adjust this value to control the distance from the bottom */
+    padding-top: 10px;
 }
